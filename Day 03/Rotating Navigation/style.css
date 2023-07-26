@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+:root {
+  --color-grey-dark-1: #222;
+  --color-grey-dark-2: #333;
+  --color-grey-dark-3: #555;
+
+  --color-white: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* Font-size = 1rem = 10px = 62.5% of 16px */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+  background-color: var(--color-grey-dark-2);
+  color: var(--color-grey-dark-1);
+}
+
+.container {
+  background-color: #fafafa;
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 5rem;
+}
+
+.container.show-nav {
+  transform: rotate(-20deg);
+}
+
+.circle-container {
+  position: fixed;
+  top: -10rem;
+  left: -10rem;
+}
+
+.circle {
+  background-color: #ff7979;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  position: relative;
+  transition: transform 0.5s linear;
+}
+
+.container.show-nav .circle {
+  transform: rotate(-70deg);
+}
+
+.circle button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 10rem;
+  background: transparent;
+  border: 0;
+  font-size: 2.6rem;
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+.circle button:focus {
+  outline: none;
+}
+
+.circle button#open {
+  left: 60%;
+}
+
+.circle button#close {
+  top: 60%;
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+
+.content {
+  max-width: 100rem;
+  margin: 5rem auto;
+}
+
+.content img {
+  max-width: 100%;
+}
+
+.content h1 {
+  font-size: 2.4rem;
+  text-transform: capitalize;
+  margin-bottom: 1.8rem;
+}
+
+.content small {
+  font-size: 1.4rem;
+  font-style: italic;
+  color: var(--color-grey-dark-3);
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 0.8rem;
+}
+
+.content p {
+  font-size: 1.6rem;
+  color: var(--color-grey-dark-2);
+  line-height: 1.5;
+  margin-bottom: 0.8rem;
+}
+
+.content p:last-child {
+  margin-bottom: 0;
+}
+
+.content h3 {
+  font-size: 2rem;
+  margin-bottom: 1.6rem;
+}
+
+/* Navigation */
+nav {
+  position: fixed;
+  bottom: 4rem;
+  left: 0;
+  z-index: 100;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 3rem;
+}
+
+nav ul li {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin: 4rem 0;
+  color: var(--color-white);
+  transform: translateX(-100%);
+  transition: transform 0.4s ease-in;
+}
+
+nav ul li i {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+nav ul li + li {
+  margin-left: 1.5rem;
+  transform: translateX(-150%);
+}
+
+nav ul li + li + li {
+  margin-left: 3rem;
+  transform: translateX(-200%);
+}
+
+.container.show-nav + nav li {
+  transform: translateX(0);
+  transition-delay: 0.3s;
+}
