@@ -8,3 +8,4 @@ Sharpen your skills by building 50 quick, unique &amp; fun mini projects
 | Day 03  |       [Rotating Navigation](https://github.com/ashrafemad097/50-Projects-In-50-Days-HTML-CSS-JavaScript/tree/main/Day%2003/Rotating%20Navigation)       | [Live Demo](https://rotation-navigation.netlify.app/)  |
 | Day 04  |       [Hidden Search Widget](https://github.com/ashrafemad097/50-Projects-In-50-Days-HTML-CSS-JavaScript/tree/main/Day%2004/Hidden%20Search%20Widget)       | [Live Demo](https://search-hidden-widget.netlify.app/)  |
 | Day 05  |       [Blurry Loading](https://github.com/ashrafemad097/50-Projects-In-50-Days-HTML-CSS-JavaScript/tree/main/Day%2005/Blurry%20Loading)       | [Live Demo](https://blurr-loading.netlify.app/)  |
+| Day 06  |       [Scroll Animation](https://github.com/ashrafemad097/50-Projects-In-50-Days-HTML-CSS-JavaScript/tree/main/Day%2006/Scroll%20Animation)       | [Live Demo](https://scroll-aniimation.netlify.app/)  |
