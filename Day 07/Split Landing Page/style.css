@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+:root {
+  --color-white: #fff;
+  --left-bg-color: rgba(87, 84, 236, 0.7);
+  --right-bg-color: rgba(43, 43, 43, 0.8);
+  --left-btn-hover-color: rgba(87, 84, 236, 1);
+  --right-btn-hover-color: rgba(28, 122, 28, 1);
+
+  --hover-width: 75%;
+  --other-width: 25%;
+  --speed: 1000ms;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* Font-size = 1rem = 10px = 62.5% of 16px */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+}
+
+h2 {
+  font-size: 5.4rem;
+  color: var(--color-white);
+  text-transform: capitalize;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.btn:link,
+.btn:visited {
+  font-size: 1.6rem;
+  color: var(--color-white);
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 0.4rem solid var(--color-white);
+  width: 24rem;
+  padding: 2.4rem;
+  text-align: center;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+.split.left .btn:hover {
+  background-color: var(--left-btn-hover-color);
+  border-color: var(--left-btn-hover-color);
+}
+
+.split.right .btn:hover {
+  background-color: var(--right-btn-hover-color);
+  border-color: var(--right-btn-hover-color);
+}
+
+.split {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+}
+
+.split.left {
+  left: 0;
+  background-image: url(images/ps.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.split.right {
+  right: 0;
+  background: url(images/xbox.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.split.left::before,
+.split.right::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.split.left::before {
+  background-color: var(--left-bg-color);
+}
+
+.split.right::before {
+  background-color: var(--right-bg-color);
+}
+
+.split.left,
+.split.right,
+.split.left::before,
+.split.right::before {
+  transition: all var(--speed) ease-in-out;
+}
+
+.hover-left .split.left {
+  width: var(--hover-width);
+}
+
+.hover-left .split.right {
+  width: var(--other-width);
+}
+
+.hover-right .split.right {
+  width: var(--hover-width);
+}
+
+.hover-right .split.left {
+  width: var(--other-width);
+}
+
+@media (max-width: 50em) {
+  h2 {
+    top: 30%;
+    font-size: 4rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    width: 16rem;
+    padding: 1.6rem;
+  }
+}
+
+@media (max-width: 33em) {
+  h2 {
+    font-size: 2.6rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    width: 10rem;
+    padding: 0.8rem;
+  }
+}
