@@ -11,3 +11,4 @@ Sharpen your skills by building 50 quick, unique &amp; fun mini projects
 | Day 06  |       [Scroll Animation](https://github.com/ashrafemad097/50-Projects-In-50-Days-HTML-CSS-JavaScript/tree/main/Day%2006/Scroll%20Animation)       | [Live Demo](https://scroll-aniimation.netlify.app/)  |
 | Day 07  |       [Split Landing Page](https://github.com/ashrafemad097/50-Projects-In-50-Days-HTML-CSS-JavaScript/tree/main/Day%2007/Split%20Landing%20Page)       | [Live Demo](https://split-landing-pagee.netlify.app/)  |
 | Day 08  |       [Form Wave Animation](https://github.com/ashrafemad097/50-Projects-In-50-Days-HTML-CSS-JavaScript/tree/main/Day%2008/Form%20Wave%20Animation)       | [Live Demo](https://form-wave-aniimation.netlify.app/)  |
+| Day 09  |       [Sound Board](https://github.com/ashrafemad097/50-Projects-In-50-Days-HTML-CSS-JavaScript/tree/main/Day%2009/Sound%20Board)       | [Live Demo](https://sound-b0ard.netlify.app/)  |
