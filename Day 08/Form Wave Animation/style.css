@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli');
+
+:root {
+  --color-white: #fff;
+  --margin-bottom-30px: 3rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* Font-size = 1rem = 10px = 62.5% of 16px */
+  font-size: 62.5%;
+}
+
+body {
+  background-color: steelblue;
+  color: var(--color-white);
+  font-family: 'Muli', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2rem 4rem;
+  border-radius: 0.5rem;
+}
+
+.container h1 {
+  font-size: 3.2rem;
+  text-align: center;
+  margin-bottom: var(--margin-bottom-30px);
+}
+
+.container .btn {
+  width: 100%;
+  display: inline-block;
+  padding: 1.5rem;
+  background-color: lightblue;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1.6rem;
+  border: 0;
+  border-radius: 0.5rem;
+  margin-bottom: var(--margin-bottom-30px);
+}
+
+.container .btn:focus {
+  outline: 0;
+}
+
+.container .btn:active {
+  transform: scale(0.98);
+}
+
+.container p {
+  font-size: 1.6rem;
+}
+
+.container a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+.form-control {
+  position: relative;
+  width: 30rem;
+  margin: 2rem 0 4rem;
+}
+
+.form-control input {
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 0.2rem solid var(--color-white);
+  display: block;
+  padding: 1.5rem 0;
+  font-size: 1.8rem;
+  color: var(--color-white);
+}
+
+.form-control input:focus,
+.form-control input:valid {
+  outline: 0;
+  border-bottom-color: lightblue;
+}
+
+.form-control label {
+  font-size: 1.6rem;
+  position: absolute;
+  top: 1.5rem;
+  left: 0;
+}
+
+.form-control label span {
+  display: inline-block;
+  font-size: 1.8rem;
+  min-width: 0.5rem;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control input:focus + label span,
+.form-control input:valid + label span {
+  color: lightblue;
+  transform: translateY(-3rem);
+}
