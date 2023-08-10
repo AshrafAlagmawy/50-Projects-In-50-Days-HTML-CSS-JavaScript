@@ -17,3 +17,4 @@ Sharpen your skills by building 50 quick, unique &amp; fun mini projects
 | Day 12  |       [FAQ Collapse](https://github.com/ashrafemad097/50-Projects-In-50-Days-HTML-CSS-JavaScript/tree/main/Day%2012/FAQ%20Collapse)       | [Live Demo](https://faqq-collapse.netlify.app/)  |
 | Day 13  |       [Random Choice Picker](https://github.com/ashrafemad097/50-Projects-In-50-Days-HTML-CSS-JavaScript/tree/main/Day%2013/Random%20Choice%20Picker)       | [Live Demo](https://random-choicee-picker.netlify.app/)  |
 | Day 14  |       [Animated Navigation](https://github.com/ashrafemad097/50-Projects-In-50-Days-HTML-CSS-JavaScript/tree/main/Day%2014/Animated%20Navigation)       | [Live Demo](https://animateed-navigation.netlify.app/)  |
+| Day 15  |       [Incrementing Counter](https://github.com/ashrafemad097/50-Projects-In-50-Days-HTML-CSS-JavaScript/tree/main/Day%2015/Incrementing%20Counter)       | [Live Demo](https://incremented-counter.netlify.app/)  |
