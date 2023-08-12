@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+:root {
+  --primary-color: #22254b;
+  --secondary-color: #373b69;
+  --white-color: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* Font-size = 1rem = 10px = 62.5% of 16px */
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  background-color: var(--secondary-color);
+  padding: 1.6rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search {
+  font-size: 1.6rem;
+  font-family: inherit;
+  padding: 0.8rem 1.6rem;
+  background-color: transparent;
+  color: var(--white-color);
+  border: 0.2rem solid var(--primary-color);
+  border-radius: 5rem;
+}
+
+.search::placeholder {
+  color: #7378c5;
+}
+
+.search:focus {
+  outline: none;
+  background-color: var(--primary-color);
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie {
+  width: 30rem;
+  margin: 1.6rem;
+  background-color: var(--secondary-color);
+  box-shadow: 0 0.4rem 0.5rem rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.3rem;
+}
+
+.movie img {
+  width: 100%;
+}
+
+.movie-info {
+  font-size: 1.6rem;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 1rem;
+  letter-spacing: 0.5px;
+}
+
+.movie-info span {
+  background-color: var(--primary-color);
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.3rem;
+  font-weight: bold;
+}
+
+.movie-info span.green {
+  color: lightgreen;
+}
+
+.movie-info span.orange {
+  color: orange;
+}
+
+.movie-info span.red {
+  color: red;
+}
+
+.overview {
+  font-size: 1.6rem;
+  background-color: var(--white-color);
+  padding: 3.2rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  max-height: 100%;
+  transform: translateY(101%);
+  transition: transform 0.3s ease-in;
+}
+
+.overview h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.movie:hover .overview {
+  transform: translateY(0);
+}
