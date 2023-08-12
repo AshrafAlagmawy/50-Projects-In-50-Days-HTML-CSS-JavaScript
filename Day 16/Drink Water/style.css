@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+:root {
+  --border-color: #144fc6;
+  --fill-color: #5ab3f8;
+  --white-color: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* Font-size = 1rem = 10px = 62.5% of 16px */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #3494e4;
+  color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+h1 {
+  margin: 2rem 0 0;
+  font-size: 2.4rem;
+  text-transform: capitalize;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin: 1rem 0;
+}
+
+.cup {
+  background-color: var(--white-color);
+  border: 0.4rem solid var(--border-color);
+  color: var(--border-color);
+  border-bottom-left-radius: 4rem;
+  border-bottom-right-radius: 4rem;
+  height: 33rem;
+  width: 15rem;
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.cup.cup-small {
+  width: 5rem;
+  height: 9.5rem;
+  border-radius: 0 0 1.5rem 1.5rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+  font-size: 1.4rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0.5rem;
+  transition: 0.3s ease;
+}
+
+.cup.cup-small.full {
+  background-color: var(--fill-color);
+  color: var(--white-color);
+}
+
+.cups {
+  width: 28rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.remained {
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+  transition: 0.3s ease;
+}
+
+.remained span {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.remained small {
+  font-size: 1.2rem;
+}
+
+.percentage {
+  font-size: 3rem;
+  font-weight: bold;
+  background-color: var(--fill-color);
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 0;
+  transition: 0.3s ease;
+}
+
+.text {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
