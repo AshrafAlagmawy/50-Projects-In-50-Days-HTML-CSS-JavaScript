@@ -18,3 +18,5 @@ Sharpen your skills by building 50 quick, unique &amp; fun mini projects
 | Day 13  |       [Random Choice Picker](https://github.com/ashrafemad097/50-Projects-In-50-Days-HTML-CSS-JavaScript/tree/main/Day%2013/Random%20Choice%20Picker)       | [Live Demo](https://random-choicee-picker.netlify.app/)  |
 | Day 14  |       [Animated Navigation](https://github.com/ashrafemad097/50-Projects-In-50-Days-HTML-CSS-JavaScript/tree/main/Day%2014/Animated%20Navigation)       | [Live Demo](https://animateed-navigation.netlify.app/)  |
 | Day 15  |       [Incrementing Counter](https://github.com/ashrafemad097/50-Projects-In-50-Days-HTML-CSS-JavaScript/tree/main/Day%2015/Incrementing%20Counter)       | [Live Demo](https://incremented-counter.netlify.app/)  |
+| Day 16  |       [Drink Water](https://github.com/ashrafemad097/50-Projects-In-50-Days-HTML-CSS-JavaScript/tree/main/Day%2016/Drink%20Water)       | [Live Demo](https://drink-watter.netlify.app/)  |
+| Day 17  |       [Movie App](https://github.com/ashrafemad097/50-Projects-In-50-Days-HTML-CSS-JavaScript/tree/main/Day%2017/Movie%20App)       | [Live Demo](https://moviiee-app.netlify.app/)  |
