@@ -35,3 +35,4 @@ Sharpen your skills by building 50 quick, unique &amp; fun mini projects
 | Day 30  |       [Auto Text Effect](https://github.com/ashrafemad097/50-Projects-In-50-Days-HTML-CSS-JavaScript/tree/main/Day%2030/Auto%20Text%20Effect)       | [Live Demo](https://auto-text-effeect.netlify.app/)  |
 | Day 31  |       [Password Generator](https://github.com/ashrafemad097/50-Projects-In-50-Days-HTML-CSS-JavaScript/tree/main/Day%2031/Password%20Generator)       | [Live Demo](https://generate-passsword.netlify.app/)  |
 | Day 32  |       [Fast Checkboxes](https://github.com/ashrafemad097/50-Projects-In-50-Days-HTML-CSS-JavaScript/tree/main/Day%2032/Fast%20Checkboxes)       | [Live Demo](https://fast-checkboxes.netlify.app/)  |
+| Day 33  |       [Notes App](https://github.com/ashrafemad097/50-Projects-In-50-Days-HTML-CSS-JavaScript/tree/main/Day%2033/Notes%20App)       | [Live Demo](https://notes-note-app.netlify.app/)  |
