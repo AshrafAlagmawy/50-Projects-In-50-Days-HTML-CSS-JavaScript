@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+:root {
+  --white-color: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* Font-size = 1rem = 10px = 62.5% of 16px */
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #7bdaf3;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding-top: 4.8rem;
+}
+
+.add {
+  position: fixed;
+  top: 1.6rem;
+  right: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.5rem;
+  background-color: #9ec862;
+  color: var(--white-color);
+  cursor: pointer;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.8rem 1.6rem;
+}
+
+.note {
+  background-color: var(--white-color);
+  box-shadow: 0 0 1rem 0.4rem rgba(0, 0, 0, 0.1);
+  margin: 3rem 2rem;
+  height: 40rem;
+  width: 40rem;
+}
+
+.note .tools {
+  background-color: #9ec862;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.8rem;
+}
+
+.note .tools button {
+  font-size: 1.6rem;
+  background-color: transparent;
+  color: var(--white-color);
+  border: none;
+  cursor: pointer;
+  margin-left: 0.8rem;
+}
+
+.note .tools button:focus {
+  outline: none;
+}
+
+.note textarea {
+  outline: none;
+  border: none;
+  height: 40rem;
+  width: 100%;
+  font-family: inherit;
+  font-size: 1.7rem;
+  padding: 2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.main {
+  padding: 1.6rem;
+}
